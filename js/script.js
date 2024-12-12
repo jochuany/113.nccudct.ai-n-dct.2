@@ -12,6 +12,9 @@ function startChat() {
 // 傳送訊息、顯示訊息
 async function sendMessage() {
 
+    // 自動捲到頁面最上方（鍵盤收起後）
+    window.scrollTo(0, 0);
+
     // 讀取使用者輸入的訊息
     const userInput = userText.value;
 
