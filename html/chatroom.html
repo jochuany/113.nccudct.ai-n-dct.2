@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chatroom</title>
+    <link rel="stylesheet" href="../css/chatroom.css">
+    <script src="../js/script.js" defer></script>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@200;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="all">
+        <div class="header-bar">
+            <div class="btn-chatroom"><a href="chatroom.html">聊一聊</a></div>
+            <div class="btn-map"><a href="map.html">看地圖</a></div>
+        </div>
+        <div class="content">
+            <div class="welcome-box">
+                <div class="character-box">
+                    <div class="welcome-message">月經相關的任何問題</br>都可以問我喔～</div>
+                    <div class="start-hint">（點擊姊姊開始聊天）</div>
+                    <img src="../images/character.png" alt="" onclick="startChat()">
+                </div>
+            </div>
+            <div class="message-box hide">
+            </div>
+        </div>
+        <div class="input-area">
+            <div class="hint-text">
+                <span class="begin-words">我要拍拍～</span>
+                <span class="begin-words">我要提問！</span>
+                <span class="hint">經期不順該怎麼辦？</span>
+                <span class="hint">肚子不舒服⋯⋯</span>
+                <span class="hint">多囊卵巢是什麼？</span>
+
+            </div>
+            <div class="input-text">
+                <input id="user-text" type="textarea" placeholder="輸入訊息⋯">
+                <span class="btn-send" onclick="sendMessage()"><img src="../images/send.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
