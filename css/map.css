@@ -97,6 +97,13 @@ a {
     background-color: #B9D1E6;
 }
 
+.pic img {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 .place-info {
     width: 40%;
     margin-right: 1vh;
@@ -108,7 +115,7 @@ a {
 .name {
     font-weight: 800;
     padding-left: 0.1vh;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .distance {
@@ -140,7 +147,7 @@ a {
 .count {
     padding-left: 0.1vh;
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 0.9rem;
 
 }
 
