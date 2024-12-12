@@ -14,7 +14,7 @@ a {
 
 .all {
     width: 90%;
-    height: 200vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -90,6 +90,21 @@ a {
     margin-top: 1vh;
     color: #fff;
     text-shadow: 0 0 5px #5F7488;
+    animation: flashing 1.5s 0s infinite;
+}
+
+@keyframes flashing {
+    0% {
+        opacity: 10%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 10%;
+    }
 }
 
 .message-box {
