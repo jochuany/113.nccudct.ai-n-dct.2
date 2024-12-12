@@ -50,7 +50,7 @@ async function sendMessage() {
 
         try {
             // 替換為 Colab 執行中顯示的 Ngrok URL !!!
-            const response = await fetch("https://a580-34-16-163-179.ngrok-free.app/answer", {
+            const response = await fetch("https://bb88-34-124-227-11.ngrok-free.app/answer", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
